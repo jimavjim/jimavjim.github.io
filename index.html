@@ -1,23 +1,27 @@
----
-layout: default
----
+<html>
+<head>
 
-<div class="home">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+  font-family: "Open Sans";
+  font-size: 60px;
+}
+</style>
+</head>
 
-  <h1 class="page-heading">Posts</h1>
+<body>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<center>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<iframe src="//iframe.dacast.com/b/73228/c/442771" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-</div>
+<br>
+
+<iframe src="/webcast/retailtownhall/chat/room1/" width="640" height="580" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+</center>
+
+</body></head>
+
